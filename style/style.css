@@ -186,10 +186,14 @@
       font-size: 18px;
       margin: 16px 0px 48px 0px;
   }
+  .video-img img{
+    width: 280px;
+    padding: 10px;
+  }
 
   .video-img {
       display: flex;
-      gap: 25px;
+      gap: 20px;
   }
 
   .video-img p {
