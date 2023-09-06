@@ -228,6 +228,9 @@
     padding-right: 200px;
     padding-left: 50px;
   }
+  .title-play>h1, .play2-title>h1{
+    margin-bottom: 24px;
+  }
 
   .play2{
     display: flex;
@@ -249,7 +252,15 @@
   .play2-title{
 padding-left: 100px;
   }
-
+  /* careers section  */
+  .careers-bg{
+    background-color: #ff42a6;
+  }
+  .careers{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
   /* game name section  */
   .game {
       margin: 0px 60px 0px 60px;
