@@ -258,8 +258,23 @@ padding-left: 100px;
   }
   .careers{
     display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
+    /* margin-left: 100px; */
+    
+  }
+  .careers-title{
+    padding: 120px;
+  }
+  .careers-title h1{
+    color: #FFF;
+    padding-bottom: 24px;
+  }
+  .careers-title button{
+    background-color: #FFF;
+    color: #ff42a6;
+    margin-top: 40px;
+  }
+  .careers img{
+    width: 800px;
   }
   /* game name section  */
   .game {
