@@ -135,7 +135,7 @@
       padding: 95px 100px 95px 100px;
   }
 
-  .we-are h1 {
+  .title-2nd {
       font-size: 48px;
       font-style: normal;
       font-weight: 700;
@@ -144,19 +144,26 @@
       -webkit-text-fill-color: transparent;
   }
 
+  .title-all {
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+  }
+
   .we-are p {
       color: #534C64;
       padding-left: 200px;
       font-size: 18px;
       margin: 32px 0px 32px 0px;
   }
-  .we-are img{
-    padding-top: 55px;
-    padding-bottom: 55px;
-    Width: 100%;
-    height: 100%;
-    object-fit: cover;
-    
+
+  .we-are img {
+      padding-top: 55px;
+      padding-bottom: 55px;
+      Width: 100%;
+      height: 100%;
+      object-fit: cover;
+
   }
 
   .weare-items {
@@ -166,6 +173,57 @@
 
   }
 
+  /* video section  */
+  .video {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      margin: 120px 0px 120px 0px;
+  }
+
+  .video-title {
+      color: #534C64;
+      font-size: 18px;
+      margin: 16px 0px 48px 0px;
+  }
+
+  .video-img {
+      display: flex;
+      gap: 25px;
+  }
+
+  .video-img p {
+      text-align: start;
+      padding-top: 15px;
+  }
+
+  /* game name section  */
+  .game{
+    margin: 0px 200px 0px 200px;
+
+  }
+  .game-name {
+      display: flex;
+      width: 200px;
+      align-items: center;
+      justify-content: center;
+      height: 70px;
+      border-radius: 200px;
+      margin: 40px;
+  }
+  .game-name:hover{
+    border: 1px solid #F948B2;
+    color: #F948B2;
+
+  }
+  .game1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+    
 
 
   /* footer  section  */
@@ -237,7 +295,9 @@
   @media screen and (max-width:576px) {
 
       nav,
-      .nav-items, .we-are {
+      .nav-items,
+      .we-are,
+      .video-img {
           flex-direction: column;
           box-shadow: none;
           align-items: center;
@@ -274,13 +334,15 @@
           align-items: center;
           justify-content: center;
       }
-      .weare-items{
-        text-align: center;
+
+      .weare-items {
+          text-align: center;
       }
-      .we-are p{
-        margin: 10px 0px 10px 0px;
-        padding: 0px;
-        text-align: center;
+
+      .we-are p {
+          margin: 10px 0px 10px 0px;
+          padding: 0px;
+          text-align: center;
       }
 
 
