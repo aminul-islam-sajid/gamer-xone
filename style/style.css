@@ -221,61 +221,92 @@
       position: relative;
       margin-bottom: -600px;
       margin-left: -120px;
-      
-  }
-  .title-play{
-    text-align: right;
-    padding-right: 200px;
-    padding-left: 50px;
-  }
-  .title-play>h1, .play2-title>h1{
-    margin-bottom: 24px;
+
   }
 
-  .play2{
-    display: flex;
-    align-items: center;
-    margin: 10px 80px 240px 100px;
+  .title-play {
+      text-align: right;
+      padding-right: 200px;
+      padding-left: 50px;
   }
+
+  .title-play>h1,
+  .play2-title>h1 {
+      margin-bottom: 24px;
+  }
+
+  .play2 {
+      display: flex;
+      align-items: center;
+      margin: 10px 80px 240px 100px;
+  }
+
   .play-img-main2 {
-    width: 500px;
-    height: 500px;
-    
-}
-  .play-img2{
-    width: 250px;
-    height: 300px;
-    position: relative;
-    margin-bottom: -600px;
-    margin-left: 400px;
+      width: 500px;
+      height: 500px;
+
   }
-  .play2-title{
-padding-left: 100px;
+
+  .play-img2 {
+      width: 250px;
+      height: 300px;
+      position: relative;
+      margin-bottom: -600px;
+      margin-left: 400px;
   }
+
+  .play2-title {
+      padding-left: 100px;
+  }
+
   /* careers section  */
-  .careers-bg{
-    background-color: #ff42a6;
+  .careers-bg {
+      background-color: #ff42a6;
   }
-  .careers{
-    display: flex;
-    /* margin-left: 100px; */
-    
+
+  .careers {
+      display: flex;
+      /* margin-left: 100px; */
+
   }
-  .careers-title{
-    padding: 120px;
+
+  .careers-title {
+      padding: 120px;
   }
-  .careers-title h1{
+
+  .careers-title h1 {
+      color: #FFF;
+      padding-bottom: 24px;
+  }
+
+  .careers-title p {
+      margin-bottom: 30px;
+  }
+
+  .careers-title button {
+      background-color: #FFF;
+      color: #ff42a6;
+      margin-top: 40px;
+  }
+
+  .careers img {
+      width: 800px;
+  }
+  .careers-title p{
     color: #FFF;
-    padding-bottom: 24px;
   }
-  .careers-title button{
-    background-color: #FFF;
-    color: #ff42a6;
-    margin-top: 40px;
+
+  .cree {
+      color: #FFF;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
   }
-  .careers img{
-    width: 800px;
+
+  .cry-de {
+      text-align: right;
   }
+
   /* game name section  */
   .game {
       margin: 0px 60px 0px 60px;
